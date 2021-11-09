@@ -29,6 +29,10 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
+    @app.route('/')
+    def index():
+        return 'this is the index page'
+
     return app
 
 
