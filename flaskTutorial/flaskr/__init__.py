@@ -32,11 +32,14 @@ def create_app(test_config=None):
     return app
 
 
-def create_app():
-    app = ...
-    # existing code omitted
+# def create_app():
+#     app = ...
+#     # existing code omitted
+#
+#     from . import db
+#     db.init_app(app)
+#
+#     return app
 
-    from . import db
-    db.init_app(app)
 
-    return app
+    #define main function then run()
