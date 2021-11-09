@@ -13,7 +13,6 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 # test if flaskProject is properly inside repository
-
 # test 1
 # test 2
 # test 3
