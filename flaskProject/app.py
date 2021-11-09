@@ -12,5 +12,8 @@ def hello_world():  # put application's code here
 if __name__ == '__main__':
     app.run(debug=True)
 
-# testing if flaskProject is properly inside repository
+# test if flaskProject is properly inside repository
+
+# test 1
 # test 2
+# test 3
