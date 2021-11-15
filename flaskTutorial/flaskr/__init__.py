@@ -31,19 +31,6 @@ def create_app(test_config=None):
 
     @app.route('/')
     def index():
-        return 'this is the index page'
+        return 'this is not the index page'
 
     return app
-
-
-# def create_app():
-#     app = ...
-#     # existing code omitted
-#
-#     from . import db
-#     db.init_app(app)
-#
-#     return app
-
-
-    #define main function then run()

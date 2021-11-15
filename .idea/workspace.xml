@@ -45,7 +45,29 @@
       <recent name="$PROJECT_DIR$/flaskTutorial" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.lab09a">
+    <configuration name="lab09a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="raspberrypi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyC" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyC/lab09a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="raspberrypi" type="Python.FlaskServer">
       <module name="raspberrypi" />
       <option name="target" value="$PROJECT_DIR$/flaskTutorial/app.py" />
@@ -61,6 +83,11 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.lab09a" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,6 +99,9 @@
       <updated>1636434779656</updated>
       <workItem from="1636434792213" duration="3435000" />
       <workItem from="1636470474253" duration="1837000" />
+      <workItem from="1636508826679" duration="221000" />
+      <workItem from="1636554568059" duration="143000" />
+      <workItem from="1636555219154" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="add flaskTutorial">
       <created>1636434901011</created>
@@ -121,6 +151,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="add index page" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/raspberrypi$lab09a.coverage" NAME="lab09a Coverage Results" MODIFIED="1636554587994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyC" />
     <SUITE FILE_PATH="coverage/raspberrypi$raspberrypi.coverage" NAME="raspberrypi Coverage Results" MODIFIED="1636470976350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
