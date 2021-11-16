@@ -1,2 +1,1 @@
-# raspberrypi
-Test repository for Raspberry Pi
+Repository for Raspberry Pi 4 projects!
