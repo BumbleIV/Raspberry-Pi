@@ -2,4 +2,4 @@
 
 ___
 **Notes from BumbleIV:** 
-- This repository contains the code for a simple blogging appliciation written in Flask with basic login functionality developed in preparation for my research project, Osprey for Dr. Ghassemi's Human and Artificial Intelligence Laboratory.
+- This repository contains the code for a simple blogging application mainly written in Flask with basic login functionality developed in preparation for my research project, Osprey for Dr. Ghassemi's Human and Artificial Intelligence Laboratory.
