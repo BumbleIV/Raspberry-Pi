@@ -9,27 +9,28 @@ MAINTAINER david_lingan <linganda@msu.edu>
 
 
 # Enter Flask application directory
-WORKDIR /Users/bumblev/Raspberry-Pi/flaskTutorial
+RUN mkdir /flask_docker
+COPY . /flask_docker
+WORKDIR /flask_docker
 
 # Setup (or install requirements)
-COPY setup.py setup.py
-RUN python3 setup.py
-
-
-# Copy all files from local directory to docker directory
-COPY . .
+RUN pip3 install flask
 
 
 # Run Flask app
+ENV FLASK_APP=flaskr # current name of flask application
+ENV FLASK_ENV=development
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 
 
-# Terminal Commands
-# docker build --tag python-docker .
+# Terminal (yml) Commands
+# docker build --tag <> .
 # docker images
 # docker run <IMAGE ID> 
-# docker run -d -p 5000:5000 python-docker
+# docker run -d -p 5000:5000 <>
 # docker ps
 # docker stop <container-name>
 
 
+
+# 
