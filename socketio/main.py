@@ -11,6 +11,22 @@ def handle_message(message):
     print('received message: ' + message)
     send(message, broadcast=True)
 
+# index route
+
+
+@app.route('/')
+def index():
+    return 'Hello World!'
+
 
 if __name__ == '__main__':
     socketio.run(app)
+
+
+
+# button iteraction:
+# use an html form to send a message to the server <form>
+# look up hmtl form pattern
+# wrap button in a form
+
+# use javascript as an alternative to html form
